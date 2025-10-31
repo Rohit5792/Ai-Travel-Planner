@@ -8,7 +8,8 @@ from langchain_core.prompts import ChatPromptTemplate
 # Load environment variables
 # ──────────────────────────────
 load_dotenv()
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY="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"
+
 
 # ──────────────────────────────
 # Streamlit UI
@@ -65,3 +66,4 @@ if submitted:
 
         except Exception as e:
             st.error(f"An error occurred: {str(e)}")
+
